@@ -27,7 +27,7 @@ public class HelloController {
         return "hello-world-model";
     }
 
-    // passaggio di parametri 
+    // passaggio fisso di parametri al Model, viene eseguito prima di ogni handler
     @ModelAttribute("name")
     public String handlerNome() {
         return "Marconi";

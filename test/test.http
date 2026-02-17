@@ -1,0 +1,16 @@
+### Test endpoint con query parameter
+GET http://localhost:8090/other/query?name=Paperino
+
+### Test endpoint con path variable
+GET http://localhost:8090/other/path/Pluto
+
+### Test endpoint con header custom
+GET http://localhost:8090/other/header
+myHeader: header-value
+
+### Test endpoint con body
+POST http://localhost:8090/other/body
+Content-Type: text/plain
+
+Hello world!
+
